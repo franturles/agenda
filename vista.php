@@ -1,5 +1,14 @@
 <?php
-
+function Cabecera(){
+?>
+<h1>Esta es mi agenda</h1>
+<?php
+};
+function Pie(){
+?>
+<footer>Espero que lo disfrute</footer>
+<?php
+};
 function mostrarContactos($contactos){
     $cabeceraTabla = false;
     for ($i=0; $i<count($contactos); $i++) {
